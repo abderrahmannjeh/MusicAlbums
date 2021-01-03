@@ -75,7 +75,7 @@ namespace mouzikty.Controllers
                 }
 
                 Artiste artiste = new Artiste();
-                artiste.Id = model.Id;
+                artiste.Id = 0;
                 artiste.Name = model.Name;
                 artiste.Image = uniqueFileName;
                 this._artisteRepository.Add(artiste);
